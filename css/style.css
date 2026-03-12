@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.body {
+    background-color: black;
+    /*não está ativando*/
+
+}
+
+.planos {
+    display: flex;
+    /* Ativa o flexbox */
+    flex-direction: row;
+    /* Alinha lado a lado (padrão) */
+    gap: 30px;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.titulo {
+    margin: 15px;
+    font-size: 40px;
+    font-family: ;
+    text-align: center;
+    color: #376BCC;
+}
+
+.valores {
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #376BCC;
+    margin: 15px;
+    padding: 10px;
+}
+
+.btnConferir {
+    background-color: black;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: 3px solid #2033AB;
+    color: #2033AB;
+    margin: 10px;
+}
+
+.semestral {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #222222;
+    width: 350px;
+    height: 300px;
+    border-radius: 8px;
+
+    sub {
+        color: #ffffff;
+        font-size: 30px;
+        margin: 2px;
+    }
+
+    sup {
+        color: #ffffff;
+        font-size: 30px;
+        margin: 6px;
+    }
+}
+
+.anual {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #222222;
+    width: 350px;
+    height: 300px;
+    border-radius: 8px;
+
+    sub {
+        color: #ffffff;
+        font-size: 30px;
+        margin: 2px;
+    }
+
+    sup {
+        color: #ffffff;
+        font-size: 30px;
+        margin: 6px;
+    }
+}
+
+.mensal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #222222;
+    width: 350px;
+    height: 300px;
+    border-radius: 8px;
+
+    sub {
+        color: #ffffff;
+        font-size: 30px;
+        margin: 2px;
+    }
+
+    sup {
+        color: #ffffff;
+        font-size: 30px;
+        margin: 6px;
+    }
+}
