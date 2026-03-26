@@ -5,9 +5,9 @@ btnVoltar.addEventListener("click", voltar);
 btnAvancar.addEventListener("click", avancar);
 
 function voltar(){
-    window.location.href = "pages/mensal.html";
+    window.location.href = "mensal.html";
 }
 
 function avancar(){
-    window.location.href = "pages/semestral.html";
+    window.location.href = "semestral.html";
 }
