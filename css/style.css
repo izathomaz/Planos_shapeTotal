@@ -8,6 +8,7 @@
 body {
     background-color: black;
     text-transform: uppercase;
+<<<<<<< HEAD
 }
 .nome {
     text-align: center;
@@ -16,6 +17,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
     margin: 23px;
+=======
+
+>>>>>>> 91757cb7434f28fb7549f01a7529072b84a299df
 }
 
 .planos {
